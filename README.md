@@ -32,8 +32,8 @@ php artisan migrate
 php artisan serve
 ```
 
-| Method | Endpoint      | Description          |
-| ------ | ------------- | -------------------- |
-| GET    | `/tasks/all`  | Fetch all tasks      |
-| POST   | `/tasks`      | Store multiple tasks |
-| DELETE | `/tasks/{id}` | Delete task          |
+| Method | Endpoint          | Description          |
+| ------ | ----------------- | -------------------- |
+| GET    | `/api/tasks/all`  | Fetch all tasks      |
+| POST   | `/api/tasks`      | Store multiple tasks |
+| DELETE | `/api/tasks/{id}` | Delete task          |

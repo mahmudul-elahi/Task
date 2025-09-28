@@ -78,21 +78,25 @@ php artisan serve
                     </tr>
                     <tr>
                         <td>GET</td>
-                        <td class="highlight">/tasks/all</td>
+                        <td class="highlight">/api/tasks/all</td>
                         <td>Fetch all tasks</td>
                     </tr>
                     <tr>
                         <td>POST</td>
-                        <td class="highlight">/tasks</td>
+                        <td class="highlight">/api/tasks</td>
                         <td>Store multiple tasks</td>
                     </tr>
                     <tr>
                         <td>DELETE</td>
-                        <td class="highlight">/tasks/{id}</td>
+                        <td class="highlight">/api/tasks/{id}</td>
                         <td>Delete task</td>
                     </tr>
-                </table> text-white
-                *
+                    <tr>
+                        <td>UPDATE STATUS</td>
+                        <td class="highlight">/api/tasks/{id}/status</td>
+                        <td>Update task</td>
+                    </tr>
+                </table>
             </div>
         </div>
     </div>
