@@ -61,7 +61,7 @@
 
                 <h3>📦 Installation & Setup</h3>
                 <pre class="bg-dark text-white p-3 rounded mb-4">
-git clone https://github.com/your-username/task-module.git
+git clone https://github.com/mahmudul-elahi/Task.git
 cd task-module
 composer install
 cp .env.example .env
